@@ -1,6 +1,6 @@
 /* Estilos para o body */
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
     background: #f4f4f4;
 }
@@ -28,26 +28,81 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 /* Main content */
 main {
     width: 80%;
+    max-width: 1200px; /* Limita a largura máxima em telas grandes */
     margin: auto;
     padding: 20px;
     background: white;
 }
 
+/* Lista de projetos no portfólio */
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    margin: 10px 0;
+}
+
+main a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
 /* Form */
 form {
+    display: flex;
     flex-direction: column;
 }
 
 input, textarea {
     padding: 5px;
     margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 button {
     padding: 10px;
     background: #333;
     color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Media query para responsividade */
+@media (max-width: 600px) {
+    nav li {
+        display: block; /* Menu empilhado em telas pequenas */
+        margin: 5px 0;
+    }
+    
+    main {
+        width: 90%; /* Aumenta a largura em telas pequenas */
+    }
 }
