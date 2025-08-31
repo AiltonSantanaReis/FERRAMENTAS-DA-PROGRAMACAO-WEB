@@ -1,0 +1,53 @@
+/* Estilos para o body */
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Header e nav */
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+/* Form */
+form {
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+}
