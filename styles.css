@@ -1,11 +1,11 @@
-/* Estilos gerais da página */
+/* Estilos gerais */
 body {
     font-family: Arial;
     margin: 0;
     background: #f0f0f0;
 }
 
-/* Estilização do cabeçalho e menu de navegação */
+/* Cabeçalho e menu */
 header {
     background: #333;
     color: white;
@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
 }
 
-/* Estilização do conteúdo principal */
+/* Conteúdo principal */
 main {
     width: 80%;
     margin: 20px auto;
@@ -36,7 +36,7 @@ main {
     padding: 10px;
 }
 
-/* Estilização da lista de portfólio */
+/* Lista do portfólio */
 main ul {
     list-style: none;
     padding: 0;
@@ -50,7 +50,7 @@ main a {
     color: blue;
 }
 
-/* Estilização do formulário de contato */
+/* Formulário de contato */
 form {
     margin: 10px 0;
 }
@@ -65,13 +65,4 @@ button {
     background: #333;
     color: white;
     padding: 5px 10px;
-}
-
-/* Estilização do rodapé */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-top: 20px;
 }
