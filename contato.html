@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Html basico -->
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -9,27 +8,29 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav aria-label="Navegação principal">
             <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html" aria-label="Página Sobre Mim">Sobre Mim</a></li>
+                <li><a href="formacao.html" aria-label="Página Formação">Formação</a></li>
+                <li><a href="portfolio.html" aria-label="Página Portfólio">Portfólio</a></li>
+                <li><a href="contato.html" aria-label="Página Contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Entre em Contato</h1>
-        <!-- Formulario simples -->
-        <form>
+        <form method="post" action="/enviar-formulario">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required aria-label="Nome">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required aria-label="E-mail">
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required aria-label="Mensagem"></textarea>
             <button type="submit">Enviar</button>
         </form>
     </main>
+    <footer>
+        <p>&copy; 2025 Ailton Santana Reis. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
