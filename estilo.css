@@ -1,1 +1,68 @@
-/* conteúdo original do styles.css */
+/* /* Estilos gerais */
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+/* Cabeçalho e menu */
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+}
+
+/* Lista do portfólio */
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    margin: 5px 0;
+}
+
+main a {
+    color: blue;
+}
+
+/* Formulário de contato */
+form {
+    margin: 10px 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+}
